@@ -1,9 +1,7 @@
-# 💼 JobMatch Agent
+# JobMatch Agent
 
-## 🔍 Project Summary
+## Project Summary
 **JobMatch Agent** is a simple AI tool that helps users find job listings using natural language input. Instead of manually searching through job portals, users can describe what kind of job they’re looking for (e.g., “developer jobs in Chicago”) and the AI agent fetches relevant listings using the JSearch API via RapidAPI.
-
-## 💡 Our Code
 
 ### 1. **Environment Setup**
 - Loads sensitive API keys from a `.env` file using `dotenv`.
