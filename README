@@ -1,6 +1,3 @@
-# JobMatch Agent
-
-## Project Summary
 **JobMatch Agent** is a simple AI tool that helps users find job listings using natural language input. Instead of manually searching through job portals, users can describe what kind of job they’re looking for (e.g., “developer jobs in Chicago”) and the AI agent fetches relevant listings using the JSearch API via RapidAPI.
 
 ### 1. **Environment Setup**
@@ -29,13 +26,13 @@
 - Automatically builds a prompt: _“I'm looking for job listings for [input]. Use the job_search tool.”_
 - Passes the prompt to the agent, which runs the tool and returns job listings.
 
-## ✅ What Our Project Demonstrates
+## **What This Project Demonstrates**
 - How to build a simple, conversational job search assistant using LangChain.
 - Using a real-time job search API in combination with an LLM.
 - Prompt engineering and tool integration with agents.
 - Creating a more natural user experience without forms or dropdowns.
 
-## 📝 Requirements
+## Requirements
 - `langchain`
 - `openai`
 - `requests`
